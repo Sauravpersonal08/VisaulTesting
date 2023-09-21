@@ -20,7 +20,7 @@ public class LoginTest extends TestBase{
 		loginPage = new LoginPage(driver);
 		loginPage.login("username", "password");
 		base.takeScreennshot("C:\\Users\\ssp34\\OneDrive\\Desktop\\Images\\1.png");
-		System.out.println("&&&&&&&&&&&&&&&");	
+
 	}
 
 	@Test
